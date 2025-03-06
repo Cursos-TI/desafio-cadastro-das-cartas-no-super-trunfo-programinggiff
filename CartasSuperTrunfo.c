@@ -8,10 +8,23 @@
 
 int main() {
     printf("Desafio Países");
-    
+
+    // Declaração de variáveis da primeira carta.
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
+    char estado1, cidade1[50], codigo[4];
+    int populacao1;
+    float área1;
+    int pontosTuristicos1;
+
+    // Declaração de variantes da segunda carta.
+
+    char estado2, cidade2[50], codigo[4];
+    int populacao2;
+    float área2;
+    int pobtisTuristicos2;
+
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
