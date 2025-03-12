@@ -59,16 +59,16 @@ int main() {
     printf(" Digite o código da carta (ex:B02): "); // O código da carta é formado pela letra referent ao estado e o numero da cidade
     scanf("%s", codigo2);
 
-    printf(" Digite a população da cidade2: ");
+    printf(" Digite a população da cidade: ");
     scanf("%d", &populacao2);
 
-    printf(" Digite a área da cidade2(em Km²): ");
+    printf(" Digite a área da cidade ( em Km²): ");
     scanf("%f", &area2);
 
-    printf(" Digite o PIB da cidade2: ");
+    printf(" Digite o PIB da cidade(em bilhões de reais):");
     scanf("%f", &pib2);
 
-    printf(" Digite os pontos Turísticos2: ");
+    printf(" Digite os pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
     //Exibição dos dados cadastrados da primeira carta 
