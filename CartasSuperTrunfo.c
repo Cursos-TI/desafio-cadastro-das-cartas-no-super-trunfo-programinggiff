@@ -27,9 +27,9 @@ int main() {
     printf(" \nCadastro da primeira carta:\n");
 
     printf(" Digite o estado (A-H):");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
-    printf(" Digite a cidade (01-04):");
+    printf(" Digite o nome da cidade (01-04):");
     scanf("%s", cidade1);
 
     printf(" Digite o código da carta (ex A01): "); // O código da carta é formado pela letra referente ao estado e o número da cidade
@@ -51,9 +51,9 @@ int main() {
     printf(" \nCadastro da segunda carta:\n");
 
     printf(" Digite o estado (A-H):");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
-    printf(" Digite a cidade (01-04):");
+    printf(" Digite o nome da cidade (01-04):");
     scanf("%s", cidade2);
 
     printf(" Digite o código da carta (ex:B02): "); // O código da carta é formado pela letra referent ao estado e o numero da cidade
@@ -83,7 +83,7 @@ int main() {
 
     // Exibição dos dados cadastrados da segunda carta
     printf("\nCarta2:\n");
-    printf("Estado : %cs\n", estado2);
+    printf("Estado : %s\n", estado2);
     printf("Cidade : %s\n", cidade2);
     printf("Código : %s\n", codigo2);
     printf("População : %d\n", populacao2);
