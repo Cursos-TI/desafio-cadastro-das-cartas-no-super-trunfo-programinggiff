@@ -6,7 +6,7 @@ int main() {
     printf("Desafio  Países\n");
 
     // Declaração das variáveis para primeira carta.
-    char estado1[4];
+    char estado1[2];
     char cidade1[50];
     char codigo1[4];
     int populacao1;
@@ -15,7 +15,7 @@ int main() {
     int pontosTuristicos1;
 
     // Declaração das variantes para segunda carta.
-    char estado2[4];
+    char estado2[2];
     char cidade2[50];
     char codigo2[4];
     int populacao2;
@@ -78,7 +78,7 @@ int main() {
     printf("Código : %s\n", codigo1);
     printf("População : %d\n", populacao1);
     printf("Área : %.2f km²\n", area1);
-    printf("PIB : %.3f bilhões de reais\n", pib1);
+    printf("PIB : %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
 
     // Exibição dos dados cadastrados da segunda carta
@@ -88,7 +88,7 @@ int main() {
     printf("Código : %s\n", codigo2);
     printf("População : %d\n", populacao2);
     printf("Área : %.2f km²\n", area2);
-    printf("PIB : %.3f bilhões de reais\n", pib2);
+    printf("PIB : %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
         
