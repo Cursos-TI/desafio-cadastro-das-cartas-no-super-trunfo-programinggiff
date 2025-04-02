@@ -1,9 +1,9 @@
 #include <stdio.h>
-// Desafio Super Trunfo Países.
+// Desafio Super Trunfo "Países".
 // programador Vanessa.
 
 int main() {
-    printf("Desafio  Países\n");
+    printf("***Desafio Novato***\n");
 
     // Declaração das variáveis para primeira carta.
     char estado1[2];
